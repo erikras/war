@@ -1,6 +1,6 @@
 # Will This Game Of War Ever End?
 
-If you've ever played the game of [War](<https://en.wikipedia.org/wiki/War_(card_game)>), especially as a parent against a child, you may have wondered, "_OMG, is this game ever going to end??_ This project simulates the game to answer that very question. TL;DR: "No, probably not."
+If you've ever played the game of [War](<https://en.wikipedia.org/wiki/War_(card_game)>), especially as a parent against a child, you may have wondered, "_OMG, is this game ever going to end??_" This project simulates the game to answer that very question. TL;DR: "No, probably not."
 
 For the purposes of this simulation, if you _ever_ run out of cards, either during normal play or during a "war" scenario, you lose the game.
 
