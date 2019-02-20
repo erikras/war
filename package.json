@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "dts-bundle": "^0.7.2",
+    "fiddly": "^0.8.0",
     "pascal-case": "^2.0.1",
     "prettier": "^1.13.7",
     "rimraf": "^2.6.1",
