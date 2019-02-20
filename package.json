@@ -1,0 +1,46 @@
+{
+  "name": "war",
+  "version": "0.0.1",
+  "description": "Simulating the game of War",
+  "author": "Erik Rasmussen <rasmussenerik@gmail.com>",
+  "license": "MIT",
+  "repository": "git+https://github.com/erikras/war.git",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "ts-node src/data",
+    "typecheck": "tsc --noEmit",
+    "lint": "tslint --project tsconfig.json --format stylish",
+    "format": "prettier '**/*.{md,js,jsx,json,ts,tsx}' --write"
+  },
+  "keywords": [
+    "typescript",
+    "lib",
+    "library",
+    "boilerplate"
+  ],
+  "files": [
+    "lib",
+    "es",
+    "dist"
+  ],
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.20",
+    "knuth-shuffle-seeded": "^1.0.6",
+    "react": "^16.7.0",
+    "tslib": "^1.9.3",
+    "xstate": "^4.2.4"
+  },
+  "devDependencies": {
+    "dts-bundle": "^0.7.2",
+    "pascal-case": "^2.0.1",
+    "prettier": "^1.13.7",
+    "rimraf": "^2.6.1",
+    "semver": "^5.6.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-plugin-prettier": "^2.0.0",
+    "typescript": "^3.1.4"
+  }
+}
